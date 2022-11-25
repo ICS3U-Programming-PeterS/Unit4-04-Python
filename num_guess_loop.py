@@ -44,7 +44,6 @@ def main():
             else:
                 # display if the number isn't from 0-9
                 print("This number is not between 0 and 9")
-                print(" ")
         # exception for erroneous/invalid input
         except Exception:
             print("{} is invalid.".format(user_num_string))
@@ -53,4 +52,3 @@ def main():
  
 if __name__ == "__main__":
     main()
-
